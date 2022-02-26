@@ -4,36 +4,56 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bulleted List</title>
+    <title>Ordered List</title>
 </head>
 <body>
     <h1>Bullet list demo</h1>
-    <ul>
+    <ol>
         <li>Item</li>
         <li>Another Item</li>
         <li>And another item</li>
-    </ul>
+    </ol>
     <h1>demo of bulleted list with sub items</h1>
-    <ul>
+    <ol>
         <li>Things</li>
-        <ul>
+        <ol>
             <li>sub thing</li>
             <li>another sub thing</li>
-        </ul>
+        </ol>
         
         <li>And another thing</li>
-        <ul>
+        <ol>
             <li>sub thing1</li>
             <li>sub thing2</li>
-        </ul>
-    </ul>
+        </ol>
+    </ol>
 
-    <h1>dmeo of bulleted list with different symbol</h1>
-    <!-- can use type: square, circle -->
-    <ul type = "square">
+    <h1>numbered list with roman numerals</h1>
+    <!-- uppercase I is for upper case roman numeral -->
+    <ol type = "I">
+        <li>Things</li>
+        <!-- lower case i is lower case roman numerals -->
+        <ol type="i">
+            <li>sub thing</li>
+            <li>another sub thing</li>
+        </ol>
+    </ol>   
+    <!-- uppercase A is for uppercase letters -->
+    <ol type = "A">
+        <li>Things</li>
+        <!-- lowercase a is for lowercase letters -->
+        <ol type="a">
+            <li>sub thing</li>
+            <li>another sub thing</li>
+        </ol>
+    </ol>   
+
+    <h1>order list that starts with certain number</h1>
+    <ol type = "1" start = "5">
         <li>Thing1</li>
         <li>Thing2</li>
-    </ul>
+    </ol>
+
 </body>
 
 <footer>
