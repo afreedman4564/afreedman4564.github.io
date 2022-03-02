@@ -9,7 +9,7 @@
     }
 }   
 
-@media(ax-width: 1300px)
+@media(max-width: 1300px)
 {
     #navigationList{
         visibility: hidden;
