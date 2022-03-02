@@ -1,21 +1,21 @@
 
-@media(min-width: 1299px)
+@media(max-width: 1299px)
 {
     #navigationList{
-        visibility: visible;   
+        visibility: hidden;   
     }
     #smallScreenNav{
-    visibility: hidden;
+        visibility: hidden;
     }
 }   
 
-@media(max-width: 1300px)
+@media(min-width: 1300px)
 {
     #navigationList{
-        visibility: hidden;
+        visibility: visible;
     }  
     
     #smallScreenNav{
-        visibility: visible;
+        visibility: hidden;
     }
 }
